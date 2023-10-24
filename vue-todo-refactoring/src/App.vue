@@ -58,10 +58,11 @@ export default {
   }, 
   components: {
     // 컴포넌트 태그명: 컴포넌트 내용
-    'TodoHeader': TodoHeader,
-    'TodoInput': TodoInput,
-    'TodoList': TodoList,
-    'TodoFooter': TodoFooter
+    // 향상된 객체 리터럴 적용 => Key, Value가 같을 경우 축약 가능
+    TodoHeader,
+    TodoInput,
+    TodoList,
+    TodoFooter
   }
 }
 </script>

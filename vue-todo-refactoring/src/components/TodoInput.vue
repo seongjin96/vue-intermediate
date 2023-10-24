@@ -50,7 +50,7 @@ export default {
     }
   },
   components: {
-    AlertModal: AlertModal
+    AlertModal
   }
 }
 </script>
